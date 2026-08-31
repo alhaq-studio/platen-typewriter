@@ -1,0 +1,32 @@
+{
+  "name": "Platen: 3D Typewriter",
+  "short_name": "Platen",
+  "description": "Sovereign 3D mechanical typewriter simulator with spatial procedural audio, proof-of-authorship recording, and cryptographic steganography.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070605",
+  "theme_color": "#070605",
+  "categories": ["productivity", "utilities", "entertainment", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

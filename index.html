@@ -13,7 +13,9 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Platen: 3D Typewriter" />
     <meta name="twitter:description" content="Write to hold, own and carry. Photorealistic 3D mechanical typewriter with spatial audio, human authorship telemetry, and zero-width cryptographic seals." />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2312100e'/><text y='.78em' font-size='60' x='20' fill='%23c5a059' font-family='serif'>P</text></svg>" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,600;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Cutive+Mono&family=IBM+Plex+Mono:wght@400;600;700&family=Special+Elite&display=swap" rel="stylesheet" />
@@ -30,6 +32,15 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.warn('[SW] Registration failed:', err);
+          });
+        });
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

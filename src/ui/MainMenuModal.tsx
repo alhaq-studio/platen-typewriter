@@ -26,7 +26,9 @@ import {
   Volume2,
   Sun,
   X,
+  Download,
 } from "lucide-react";
+import { promptInstallApp, isAppInstalled } from "../app/pwa";
 import type { MachineTheme } from "../scene/Materials";
 
 const THEMES: Array<{ id: MachineTheme; name: string; hex: string; desc: string }> = [
@@ -575,6 +577,26 @@ export function MainMenuModal() {
                       <span className="security-label">Physical Ledger:</span>
                       <span className="security-val">Nanosecond Flight Time Audit</span>
                     </div>
+                  </div>
+                </div>
+
+                {/* Section 5: PWA & Offline App Installation */}
+                <div className="options-panel">
+                  <div className="options-panel-header">
+                    <Download size={16} />
+                    <h3>Offline PWA & App Installation</h3>
+                  </div>
+                  <p className="options-panel-desc">
+                    Install Platen as a standalone desktop or mobile application. Operates 100% offline with instant loading and zero cloud dependencies.
+                  </p>
+                  <div className="pt-2">
+                    <button
+                      className="hud-btn accent flex items-center gap-2 px-4 py-2.5 text-xs font-bold"
+                      onClick={() => promptInstallApp()}
+                    >
+                      <Download size={14} />
+                      <span>{isAppInstalled() ? "Platen Already Installed" : "Install Platen as Offline Web App"}</span>
+                    </button>
                   </div>
                 </div>
               </div>

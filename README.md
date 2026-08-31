@@ -8,6 +8,7 @@
 Crafted for the weight of genuine writing.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![PWA Ready](https://img.shields.io/badge/PWA-Offline_Installable-FF5722?style=for-the-badge&logo=pwa&logoColor=white)](#-offline-pwa--desktop-installation)
 [![React 19](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r185-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -15,7 +16,7 @@ Crafted for the weight of genuine writing.**
 [![100% On-Device](https://img.shields.io/badge/Privacy-100%25_On--Device-00C853?style=for-the-badge&logo=shield&logoColor=white)](#-zero-knowledge-on-device-privacy)
 [![Zero-Width Steganography](https://img.shields.io/badge/Steganography-Zero--Width_UTF--8-b08d57?style=for-the-badge)](#-zero-width-cryptographic-steganography)
 
-[**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Human Authorship**](#-proof-of-human-authorship-suite) • [**Universal Export Suite**](#-universal-sovereign-export-suite) • [**Getting Started**](#-getting-started-locally) • [**Contributing**](CONTRIBUTING.md)
+[**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Showcase & Philosophy**](https://alhaq-site.web.app/platen) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Authorship**](#-proof-of-human-authorship-suite) • [**Export Suite**](#-universal-sovereign-export-suite) • [**Offline PWA**](#-offline-pwa--desktop-installation) • [**Getting Started**](#-getting-started-locally)
 
 </div>
 
@@ -113,6 +114,16 @@ Powered by the **Web Audio API** with zero external audio samples:
 | **Markdown Document** | `.md` | Clean Markdown document with sheet break dividers (`---`), frontmatter metadata, and invisible zero-width seal. |
 | **Plain Text** | `.txt` | Raw character grid stream with zero-width invisible cryptographic seal (survives text editors, emails, and clipboard pasting). |
 | **Complete Archive** | `.zip` | Single-click export bundling all formats (`.pdf`, `.docx`, `.html`, `.md`, `.txt`), the signed `.json` Authorship Certificate, `.webm` video recording, and a `README_SOVEREIGN_MANIFEST.txt`. |
+
+---
+
+## Offline PWA & Desktop Installation
+
+Platen is engineered as a **Progressive Web App (PWA)** with a dedicated Service Worker and local caching engine:
+
+- **1-Click Desktop & Mobile Install**: Click the **"Install App"** button in the top HUD or Main Menu to install Platen directly onto macOS, Windows, Linux, iOS, or Android.
+- **100% Offline Capability**: Once installed, Platen launches instantly without an active internet connection. All 3D models, fonts, and procedural audio synthesis execute locally on your machine.
+- **Zero Account & Zero Cloud Dependencies**: Your drafts and library are stored exclusively in your browser's private local vault (`localStorage` / IndexedDB).
 
 ---
 

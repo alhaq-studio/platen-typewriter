@@ -5,6 +5,7 @@ import { t } from "../app/i18n";
 import { discardDraft, loadDraft } from "../document/draftStorage";
 import type { InputManager } from "../input/InputManager";
 import { getCanvasVideoRecorder } from "../recorder/CanvasVideoRecorder";
+import { promptInstallApp, isAppInstalled, subscribeToInstallPrompt } from "../app/pwa";
 import { ControlDesk } from "./ControlDesk";
 import { PartInfo } from "./PartInfo";
 import { ExportDrawer } from "./ExportDrawer";
@@ -17,6 +18,15 @@ export function Overlay({ manager }: { manager: InputManager | null }) {
   const core = getCore();
   const [hasTyped, setHasTyped] = useState(false);
   const [imePreview, setImePreview] = useState("");
+  const [canInstall, setCanInstall] = useState(false);
+  const [isInstalled, setIsInstalled] = useState(isAppInstalled());
+
+  useEffect(() => {
+    return subscribeToInstallPrompt((avail) => {
+      setCanInstall(avail);
+      setIsInstalled(isAppInstalled());
+    });
+  }, []);
 
   const recorder = getCanvasVideoRecorder();
   const recording = useStore((s) => s.recording);
@@ -119,6 +129,14 @@ export function Overlay({ manager }: { manager: InputManager | null }) {
               {String(recordingDuration % 60).padStart(2, "0")}
             </span>
           )}
+        </button>
+
+        <button
+          className="hud-btn"
+          onClick={() => promptInstallApp()}
+          title={canInstall ? "Install Platen as an offline Desktop or Mobile app" : "Install as Web App"}
+        >
+          {isInstalled ? "App Installed" : "Install App"}
         </button>
 
         <button
