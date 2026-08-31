@@ -15,7 +15,7 @@ Crafted for the weight of genuine writing.**
 [![100% On-Device](https://img.shields.io/badge/Privacy-100%25_On--Device-00C853?style=for-the-badge&logo=shield&logoColor=white)](#-zero-knowledge-on-device-privacy)
 [![Zero-Width Steganography](https://img.shields.io/badge/Steganography-Zero--Width_UTF--8-b08d57?style=for-the-badge)](#-zero-width-cryptographic-steganography)
 
-[**Launch Simulator**](https://alhaq-studio.github.io/platen-typewriter/) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Human Authorship**](#-proof-of-human-authorship-suite) • [**Universal Export Suite**](#-universal-sovereign-export-suite) • [**Getting Started**](#-getting-started-locally) • [**Contributing**](CONTRIBUTING.md)
+[**Launch Live App**](https://platen-typewriter.pages.dev/) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Human Authorship**](#-proof-of-human-authorship-suite) • [**Universal Export Suite**](#-universal-sovereign-export-suite) • [**Cloudflare Deployment**](#-deployment-cloudflare-pages) • [**Contributing**](CONTRIBUTING.md)
 
 </div>
 
@@ -41,7 +41,7 @@ Every letter typed in Platen arrives the deliberate way: a key descends, a lever
    |  [Basket & Kinematics]     - 44 Stamped steel typebars with fan kinematics        |
    |                            - Cast-iron comb segment casting & fulcrum wire        |
    |                            - Sculpted U-cradle cowl & swept deck side panels      |
-   |                            - Orbiting desk planets (Earth & ringed celestial body)|
+   |                            - Orbiting celestial desk planets (Earth & Ringed body)|
    |                                                                                   |
    |  [Ribbon & Vibrator]       - Bichrome silk ribbon with kidney lightening spools   |
    |                            - Center bifurcated ribbon vibrator carrier lift       |
@@ -111,18 +111,16 @@ Powered by the **Web Audio API** with zero external audio samples:
 
 ---
 
-## Roadmap to Photorealism & Future Horizons
+## Deployment (Cloudflare Pages)
 
-- [ ] **WebGPU Real-Time Path Tracing**: Raytraced reflections, ambient occlusion, and optical glass keycap refractions.
-- [ ] **Progressive Web App (PWA)**: Standalone 1-click desktop installation for Windows, macOS, and Linux.
-- [ ] **Spatial Computing / WebXR**: Full VR/AR mode for Apple Vision Pro, Meta Quest, and spatial web browsers.
-- [ ] **Historical Typewriter Models**:
-  - *Underwood No. 5 (1900)*
-  - *Royal Quiet De Luxe (1940)*
-  - *Hermes 3000 (1958)*
-  - *Olympia SM9 (1964)*
-- [ ] **Dynamic Paper Physics**: Physical cloth and parchment tear, crease, and wrinkle simulation.
-- [ ] **Multilingual Mechanical Sets**: Alternate typebar segments for international layouts (QWERTZ, AZERTY, Cyrillic, Arabic ligature wheels).
+Platen is optimized for 1-click zero-cost global deployment on Cloudflare Pages:
+
+| Cloudflare Setting | Value |
+| :--- | :--- |
+| **Framework Preset** | `Vite` |
+| **Build Command** | `npm run build` |
+| **Build Output Directory** | `dist` |
+| **Root Directory** | `/` *(leave default/blank)* |
 
 ---
 
