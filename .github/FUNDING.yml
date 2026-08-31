@@ -1,0 +1,9 @@
+# GitHub Sponsors & Community Funding Configuration
+# These links populate the "Sponsor" button across the repository
+
+github: [Afrasyaab-GH, alhaq-studio]
+patreon: alhaq
+buy_me_a_coffee: alhaq
+ko_fi: alhaq
+
+custom: ['https://alhaq.uk', 'https://alhaq-initiative.org']
