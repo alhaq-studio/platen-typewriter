@@ -15,6 +15,7 @@ Crafted for the weight of genuine writing.**
 [![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
 [![100% On-Device](https://img.shields.io/badge/Privacy-100%25_On--Device-00C853?style=for-the-badge&logo=shield&logoColor=white)](#-zero-knowledge-on-device-privacy)
 [![Zero-Width Steganography](https://img.shields.io/badge/Steganography-Zero--Width_UTF--8-b08d57?style=for-the-badge)](#-zero-width-cryptographic-steganography)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S41HUMXS)
 
 [**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Showcase & Philosophy**](https://alhaq-site.web.app/platen) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Authorship**](#-proof-of-human-authorship-suite) • [**Export Suite**](#-universal-sovereign-export-suite) • [**Offline PWA**](#-offline-pwa--desktop-installation) • [**Getting Started**](#-getting-started-locally)
 
@@ -177,6 +178,20 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to experienc
 ```bash
 npm run build
 ```
+
+---
+
+## Support & Sponsorship
+
+If you appreciate this writing sanctuary and support independent, local-first software, consider backing the project:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S41HUMXS)
+
+- **[GitHub Sponsors](https://github.com/sponsors/Afrasyaab-GH)**
+- **[Patreon Membership](https://patreon.com/alhaq)**
+- **[Ko-fi Support](https://ko-fi.com/S6S41HUMXS)**
+- **[Buy Me a Coffee](https://buymeacoffee.com/alhaq)**
+- **[Direct Stripe Support](https://buy.stripe.com/28E3cwea897i8vkh2l14400)**
 
 ---
 
