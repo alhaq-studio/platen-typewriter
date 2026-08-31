@@ -15,7 +15,7 @@ Crafted for the weight of genuine writing.**
 [![100% On-Device](https://img.shields.io/badge/Privacy-100%25_On--Device-00C853?style=for-the-badge&logo=shield&logoColor=white)](#-zero-knowledge-on-device-privacy)
 [![Zero-Width Steganography](https://img.shields.io/badge/Steganography-Zero--Width_UTF--8-b08d57?style=for-the-badge)](#-zero-width-cryptographic-steganography)
 
-[**Launch Live App**](https://platen-typewriter.pages.dev/) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Human Authorship**](#-proof-of-human-authorship-suite) • [**Universal Export Suite**](#-universal-sovereign-export-suite) • [**Cloudflare Deployment**](#-deployment-cloudflare-pages) • [**Contributing**](CONTRIBUTING.md)
+[**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Human Authorship**](#-proof-of-human-authorship-suite) • [**Universal Export Suite**](#-universal-sovereign-export-suite) • [**Getting Started**](#-getting-started-locally) • [**Contributing**](CONTRIBUTING.md)
 
 </div>
 
