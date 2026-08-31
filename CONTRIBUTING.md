@@ -1,16 +1,19 @@
-# Contributing to Platen 3D Mechanical Typewriter
+# Contributing to Platen: 3D Typewriter
 
-Thank you for your interest in contributing to **Platen: 3D Mechanical Typewriter**! We welcome contributions from developers, 3D artists, typographers, sound engineers, and mechanical history enthusiasts to help us achieve our dream of building the world's most authentic, photorealistic, and mechanically faithful digital typewriter.
-
----
-
-## 🌟 Our Mission & Vision
-
-Our goal is to preserve and elevate the tactile poetry, mechanical precision, and distraction-free beauty of analog typewriting in the digital age. Every typebar, escapement tooth, stamped keylever, and audio acoustic resonance is crafted with physical fidelity and zero-knowledge privacy in mind.
+Thank you for your interest in contributing to **Platen: 3D Typewriter**! We warmly welcome contributions from developers, 3D artists, typographers, sound engineers, and mechanical history enthusiasts to help build the world's most authentic, photorealistic, and mechanically faithful digital typewriter.
 
 ---
 
-## 🛠️ Development Setup
+## The Vision & Manifesto
+
+> *"Write to hold, own and carry."*  
+> *"No algorithms, no autocomplete—just ink, steel, and intention. Crafted for the weight of genuine writing."*
+
+Our mission is to preserve and elevate the tactile poetry, mechanical precision, and distraction-free beauty of analog typewriting in the digital age. Every typebar, escapement tooth, stamped keylever, and acoustic resonance is crafted with physical fidelity and zero-knowledge privacy in mind.
+
+---
+
+## Development Setup
 
 ### Prerequisites
 - **Node.js**: v20.x or higher
@@ -19,8 +22,8 @@ Our goal is to preserve and elevate the tactile poetry, mechanical precision, an
 ### Getting Started
 1. **Fork and clone** the repository:
    ```bash
-   git clone https://github.com/Afrasyaab-GH/Mechanical-Typer.git
-   cd Mechanical-Typer
+   git clone https://github.com/alhaq-studio/platen-typewriter.git
+   cd platen-typewriter
    ```
 
 2. **Install dependencies**:
@@ -41,28 +44,38 @@ Our goal is to preserve and elevate the tactile poetry, mechanical precision, an
 
 ---
 
-## 🏛️ Codebase Architecture
+## Codebase Architecture
 
 ```
 src/
-├── app/                  # Application core, document state store & events
+├── app/                  # Application core, document state store & i18n
 ├── audio/                # Procedural Web Audio API sound synthesis engine
 │   └── MechanicalAudio.ts # Key clacks, platen thuds, escapement clicks, margin bell
-├── components/           # Reusable UI component library (Shadcn / Radix UI)
-├── export/               # Multi-format document exporters (PDF, DOCX, HTML, TXT, JSON)
+├── components/           # Reusable UI component library (Radix UI / custom HUD)
+├── export/               # Sovereign multi-format document exporters
+│   ├── buildPdf.ts       # Printable A4 Courier monospace PDF builder
+│   ├── buildDocx.ts      # Word document with embedded fonts & pitch
+│   ├── buildHtml.ts      # Standalone vintage web archive builder
+│   ├── buildText.ts      # Plaintext & Markdown builder
+│   └── exportArchive.ts  # Complete .zip archive with certificates & video
 ├── machine/              # Procedural 3D mechanical model definitions
 │   └── buildMachine.ts   # 44 typebars, keylevers, segment, escapement, platen, chassis
+├── recorder/             # Proof of Human Authorship telemetry & video recorder
+│   ├── CanvasVideoRecorder.ts # 60 FPS WebGL Canvas + synchronized audio recorder
+│   └── KeystrokeLedger.ts     # Millisecond flight-time telemetry & signed certificate
 ├── scene/                # Three.js / React Three Fiber scene & interaction layer
 │   ├── Machine.tsx       # Live interactive 3D typewriter viewport & keystroke bindings
 │   ├── Materials.ts      # PBR shaders, Bakelite, wrinkle enamel, satin nickel, rubber
 │   └── Paper.tsx         # Live canvas document rasterizer & ink bleed shader
-├── styles/               # CSS design tokens & animations
-└── ui/                   # Control panels, theme selector, export drawer, X-ray mode
+├── steganography/        # Zero-width cryptographic steganographic encoding/decoding
+│   └── SteganographyEncoder.ts # UTF-8 zero-width protocol (\u200B, \u200C, \uFEFF, \u2060)
+├── styles/               # CSS design tokens, typography, and dark aesthetics
+└── ui/                   # Control panels, theme selector, export drawer, verifier drawer
 ```
 
 ---
 
-## 📐 Procedural 3D & Mechanical Kinematics Guidelines
+## Procedural 3D & Mechanical Kinematics Guidelines
 
 1. **Procedural First**: All mechanical parts (typebars, keylevers, segment casting, escapement wheels, paper bail, ribbon spools) are procedurally modeled using Three.js geometry primitives and parametric curves to ensure lightweight bundles and runtime customizability.
 2. **Physical Kinematic Accuracy**:
@@ -75,7 +88,7 @@ src/
 
 ---
 
-## 🔊 Acoustic Sound Design Guidelines
+## Acoustic Sound Design Guidelines
 
 1. All sound effects are generated 100% procedurally on-device using the **Web Audio API** (`src/audio/MechanicalAudio.ts`).
 2. Acoustic profiles include:
@@ -85,15 +98,15 @@ src/
 
 ---
 
-## 🔒 Zero-Knowledge Privacy Standard
+## Zero-Knowledge Privacy Standard
 
 Platen is committed to absolute user privacy:
 - **100% Local Execution**: No keystrokes, typed text, telemetry, or document data are ever sent over a network.
-- All PDF/DOCX/HTML export processing occurs strictly in-memory in the client browser.
+- All PDF/DOCX/HTML/ZIP export processing occurs strictly in-memory in the client browser.
 
 ---
 
-## 🚀 Submitting a Pull Request
+## Submitting a Pull Request
 
 1. Create a feature branch (`git checkout -b feature/amazing-feature`).
 2. Ensure your changes compile cleanly without errors:
@@ -104,10 +117,10 @@ Platen is committed to absolute user privacy:
    ```bash
    git commit -m "feat(machine): add knurled variable line-space ratchet wheel"
    ```
-4. Push to your fork and submit a Pull Request describing your changes.
+4. Push to your fork and submit a Pull Request describing your changes to `alhaq-studio/platen-typewriter`.
 
 ---
 
-## 📜 License
+## License
 
 By contributing to Platen, you agree that your contributions will be licensed under its [MIT License](LICENSE).
