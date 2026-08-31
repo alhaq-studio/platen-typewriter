@@ -29,6 +29,21 @@ Every letter typed in Platen arrives the deliberate way: a key descends, a lever
 
 ---
 
+## The Philosophy: Defending the Human Author in the Age of AI
+
+As generative AI becomes standard across tools and platforms, a profound crisis of trust has emerged in the modern writing landscape:
+
+1. **The Reader's Dilemma**: When articles, essays, and stories can be hallucinated by statistical algorithms in milliseconds, trust is eroded. Readers are left wondering: *Did a human struggle with these thoughts, or is this an automated prediction of words devoid of genuine lived experience?*
+2. **The Writer's Anxiety**: Honest writers, essayists, students, and thinkers pour hours of cognitive struggle and emotional depth into their work, only to face a new anxiety: *Will my readers dismiss my work as AI-generated? How can I prove the sweat, revisions, and humanity behind every sentence?*
+
+**Platen was created to be the definitive answer and sanctuary:**
+- **Friction as Value**: In Platen, words are not free or disposable. Every character requires deliberate physical torque and mechanical commitment.
+- **Verifiable Neuromuscular Proof**: While AI dumps thousands of tokens instantaneously, human writing possesses a natural flight-time cadence (inter-keystroke intervals / IKI), organic backspace revisions, and cognitive formulation pauses (>1.2s). Platen records this organic telemetry into tamper-proof certificates.
+- **Cryptographic Invisible Seals**: Every export (.pdf, .docx, .html, .md, .txt) embeds an invisible zero-width cryptographic seal verifying author identity, SHA-256 integrity, and human cadence entropy.
+- **"Write to hold, own, and carry"**: 100% on-device, zero telemetry, and sovereign ownership over your words.
+
+---
+
 ## Key Features at a Glance
 
 ```text
