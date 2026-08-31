@@ -118,10 +118,10 @@ We have ambitious plans to push the boundaries of WebGL, WebGPU, and browser sim
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Afrasyaab-GH/Mechanical-Typer.git
+git clone https://github.com/alhaq-studio/platen-typewriter.git
 
 # Navigate into the project directory
-cd Mechanical-Typer
+cd platen-typewriter
 
 # Install dependencies
 npm install
