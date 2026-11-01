@@ -17,7 +17,7 @@ Crafted for the weight of genuine writing.**
 [![Zero-Width Steganography](https://img.shields.io/badge/Steganography-Zero--Width_UTF--8-b08d57?style=for-the-badge)](#-zero-width-cryptographic-steganography)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S41HUMXS)
 
-[**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Showcase & Philosophy**](https://alhaq-site.web.app/platen) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Authorship**](#-proof-of-human-authorship-suite) • [**Export Suite**](#-universal-sovereign-export-suite) • [**Offline PWA**](#-offline-pwa--desktop-installation) • [**Getting Started**](#-getting-started-locally)
+[**Launch Live Simulator**](https://platen-typewriter.al-haq-studio.workers.dev/) • [**Showcase & Philosophy**](https://alhaq.uk/platen) • [**Key Features**](#-key-features-at-a-glance) • [**Proof of Authorship**](#-proof-of-human-authorship-suite) • [**Export Suite**](#-universal-sovereign-export-suite) • [**Offline PWA**](#-offline-pwa--desktop-installation) • [**Getting Started**](#-getting-started-locally)
 
 </div>
 
